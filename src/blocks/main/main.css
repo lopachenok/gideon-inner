@@ -1,0 +1,14 @@
+.main {
+  width: 76%;
+  background: #eeeff4;
+  
+  &__wrapper {
+    margin: 30px;    
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    overflow: hidden;
+    padding-bottom: 30px;
+  }
+  
+}

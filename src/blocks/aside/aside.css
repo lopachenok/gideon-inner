@@ -1,0 +1,21 @@
+.aside {
+  background: #394a58;
+  width: 24%;
+  
+  &__title {
+    color: white;
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  &__search {
+    margin: 20px auto 0;
+  }
+  
+  &__menu {
+    margin-top: 17px;
+  }
+  
+}

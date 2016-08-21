@@ -1,0 +1,81 @@
+.btn {
+  width: 170px;
+  height: 35px;
+  border:none;
+  color: #fff;
+  background-color: #e32636;
+  border-radius: 4px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  box-shadow: 0 3px 0 #86141d;
+  font-size: 16px;
+  
+  &:hover {
+    color: #fff;
+    background: #b61e2b;
+    transition: background .2s ease;
+  }
+  
+  &__icon {
+    display: block;
+    background-image: url(icon-chevron.svg);
+    background-color: #b61e2b;
+    background-size: 19px 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 35px;
+    width: 40px;
+    position: relative;
+    margin-right: 30px;
+    border-radius: 4px 0 0 4px;
+    
+    &:after {
+      content: '';
+      position: absolute;
+      border: 8px solid transparent;
+      border-left: 6px solid #b61e2b;
+      right: -14px;
+      top: 10px;
+    }
+  }
+  
+  &--schedule {
+    width: 167px;
+    font-size: 16px;
+    background-color: #485e70;
+    box-shadow: 0 3px 0 #27333d; 
+    color: #fff;
+    text-align: center;
+    position: relative;
+    
+    &:hover {
+      color: #fff;
+      background: #27333d;
+      transition: background .2s ease;
+    }
+    
+    .btn__icon {
+      background-color: #485e70;
+      border-right: 1px solid rgba(255, 255, 255, 0.4);
+      background-image: url(cart.svg);
+      opacity: 0.7;
+      margin-right: 25px;
+      
+      &:after {
+        width: 14px;
+        height: 14px;
+        background-color: #485e70;
+        border: none;
+        border-right: 1px solid rgba(255, 255, 255, 0.4);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+        transform: rotate(-45deg);
+        right: -8px;
+        top: 11px;
+      }
+    }
+  }
+  
+  
+}

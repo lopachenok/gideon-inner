@@ -1,0 +1,12 @@
+@import "reset.css";
+@import '../.././src/blocks/aside/aside.css';
+@import '../.././src/blocks/container/container.css';
+@import '../.././src/blocks/search/search.css';
+@import '../.././src/blocks/aside-menu/aside-menu.css';
+@import '../.././src/blocks/header/header.css';
+@import '../.././src/blocks/main/main.css';
+@import '../.././src/blocks/btn/btn.css';
+@import '../.././src/blocks/main-menu/main-menu.css';
+@import '../.././src/blocks/breadcrumbs/breadcrumbs.css';
+@import '../.././src/blocks/book/book.css';
+@import '../.././src/blocks/detailed-book/detailed-book.css';
